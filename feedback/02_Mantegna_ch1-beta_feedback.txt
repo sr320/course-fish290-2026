@@ -1,0 +1,208 @@
+FEEDBACK: Mantegna_ch1-beta.docx
+Assignment #: 02
+Date: 2026-04-24
+
+NOTE ON REVISION STATUS
+A text comparison of this file against the previously assessed draft (assignments/01_Mantegna_ch1.docx,
+feedback/01_Mantegna_ch1_feedback.txt) shows no detectable differences. This beta draft appears to be an
+identical copy. The comments below therefore repeat and expand on the prior feedback, now grounded in the
+specific language from your course lectures. Please review the prior feedback document alongside this one
+and confirm that the intended revision has been uploaded.
+
+SUMMARY
+This is a complete and scientifically compelling manuscript on Mytilus trossulus biomarker responses to
+contaminants in Puget Sound. The study design is strong, the dataset large (n = 74 sites), and the central
+argument -- that contaminant distributions and biomarker responses decouple at a regional scale -- is clearly
+important. Because no text has changed from draft 01, none of the previously flagged issues have been
+addressed: the Introduction lacks an explicit hypothesis, the abstract has a duplicated clause, figures are
+missing, the condition-index formula is absent, and placeholder text remains in Acknowledgements, Funding,
+and Data Availability. Full-pass revision is still needed before this draft is ready for journal submission.
+
+STRENGTHS
+- The funnel structure of the Introduction (broad nearshore context -> Puget Sound -> mussels as biomonitors
+  -> specific biomarkers) follows the 3-component framework covered in class: define a territory, establish
+  a niche, occupy the niche.
+- Methods subheadings (Study Areas, Mussel Deployment, Morphometrics, Assays, Analysis) group like with
+  like rather than proceeding strictly chronologically -- a good instinct from the Methods lecture.
+- Results consistently report pattern + test statistic + p-value in the same sentence, which is the
+  preferred format shown in the Results lecture ("Fertilized seeds were larger... mean 1.8 vs. 0.9 g,
+  p=0.019; Fig. 1").
+- The Discussion does not overclaim; it explicitly acknowledges that moderate correlations reflect
+  buffering/acclimation rather than absence of response.
+
+AREAS FOR IMPROVEMENT
+
+Introduction
+  - The final paragraph describes what was done but never states a directional prediction. The Week 3 lecture
+    (Introduction role) and your course materials are explicit: "Define your research question, hypotheses,
+    and overall approach. The more specific, the better." Add one or two sentences stating a directional
+    hypothesis (e.g., "We hypothesized that P450 activity would co-vary with PAH spatial indices, while SOD
+    would show weaker class-specific signal given its role as a generalized oxidative stress indicator").
+    [ref: lectures/290 Week 3.pdf; readings/The Introduction Section.pdf]
+  - The gap statement ("remains a critical gap") is vague. The Week 3 lecture notes that "you need to
+    explain why it is important for our broader understanding to fill this gap." Name the specific gap:
+    is it that existing monitoring programs measure contaminants but not biological response at scale?
+    That lab-derived biomarker-contaminant relationships have not been validated at the regional field
+    scale? Make the reader feel the tension.  [ref: lectures/290 Week 3.pdf; readings/The Introduction Section.pdf]
+  - Paragraph 3 (WDFW / Mussel Watch program history) is background that could be condensed. The Week 3
+    lecture cautions against a don't: "give a literature review on everything you know about the subject,
+    then tack on your project goals at the end." The paragraph is informative but does not advance the
+    gap argument; fold it into paragraph 2 or trim to two sentences.
+    [ref: lectures/290 Week 3.pdf; readings/Brevity.pdf]
+  - The in-text citation "Cajaraville et al. - 2000" uses a dash instead of a comma. The Week 4b lecture
+    (References) specifies APA format: three or more authors use "et al." and cite year in parentheses --
+    correct format is "Cajaraville et al., 2000". Check the entire manuscript for this error.
+    [ref: lectures/290 Week 4b.pdf; readings/Reading Scientific Papers.pdf]
+  - The title ("Assessing Mytilus trossulus response to contaminants in Puget Sound using traditional
+    biomarkers") is descriptive but does not convey the key finding. The Week 2a lecture on "the art of
+    the title" advises: "When in doubt, use a title that tells the main message. Many people will only
+    read the title." Consider a result-forward title such as "Spatial decoupling of contaminant burden and
+    biomarker responses in Mytilus trossulus across Puget Sound nearshore sites."
+    [ref: lectures/290 Week 2a.pdf; readings/Ten Simple Rules Structuring Papers.pdf]
+
+Methods
+  - Figure 1 (sampling sites map) is referenced in the text but no figure is present -- only blank lines.
+    The Week 4a lecture (Methods) notes that maps and site figures typically accompany site descriptions to
+    help readers visualize the study area. Insert the figure or mark the placeholder explicitly as
+    "[Figure 1 to be inserted: map of 74 Puget Sound sites]".
+    [ref: lectures/290 Week 4a.pdf; readings/The Methods Section.pdf]
+  - The condition index formula is promised ("Higgins 1938 formula (below)") but missing. The Week 4a
+    lecture lists formatting rule #6: "the level of detail needed depends on your study and the customs of
+    your field. Some details are trivial while others are critical." A formula used to compute a published
+    response variable is critical; insert it.  [ref: lectures/290 Week 4a.pdf; readings/The Methods Section.pdf]
+  - Tense is inconsistent. The Week 4a lecture lists formatting rule #1: "Use past tense in the Methods."
+    "Correlation analyses use Spearman's..." should be "...used Spearman's..."; check for other present-
+    tense verbs throughout this section.  [ref: lectures/290 Week 4a.pdf; readings/The Methods Section.pdf]
+  - Subheading capitalization is inconsistent ("Mussel deployment and collection" vs. "Whole mussel
+    morphometrics" vs. "Assays" vs. "Analysis"). The Week 4a lecture specifies "Use different font
+    formatting for subheadings" and implies consistent style. Choose title case or sentence case and
+    apply throughout.  [ref: lectures/290 Week 4a.pdf; readings/The Methods Section.pdf]
+  - Report QA details for the assays: intra-plate and inter-plate CVs, the number of replicates retained
+    after outlier removal, and blank correction. These allow readers to "judge the credibility of the
+    science" -- the third function of Methods listed in both Week 4a and the course readings.
+    [ref: lectures/290 Week 4a.pdf; readings/The Methods Section.pdf]
+
+Results
+  - The Moran's I values are listed as stacked inline text with inconsistent punctuation
+    ("(I = 0.165, z = 3.52, p < 0.001),"). The Week 5b lecture states explicitly: "Tables are appropriate
+    when the precision of a value matters (like a p-value) and you have many variables to display." This
+    data is the textbook case for a table. Format as Variable | Moran's I | z-score | p-value with
+    horizontal borders on header and last row only, as shown in class.
+    [ref: lectures/290 Week 5b 2025.pdf; readings/The Results Section.pdf]
+  - Figure 2 ("IBR.") has a one-word caption and the figure itself is absent. The Week 5a lecture covers
+    figure captions and the golden rule: "Give readers the most information capable of being digested in
+    the shortest time with the least ink in the smallest space possible." A caption must stand alone:
+    include what was plotted, what the x/y axes represent, n, error bar type, and any statistical
+    annotations.  [ref: lectures/290 Week 5a student 2025.pdf; readings/The Results Section.pdf]
+  - Figure 3B is cited ("Fig. 3B") but no Figure 3 exists in the draft. Number figures sequentially and
+    define every figure that is cited.  [ref: lectures/290 Week 5a student 2025.pdf; readings/The Results Section.pdf]
+  - The Results section closes the Correlations subsection with an interpretive phrase: "underscoring the
+    influence of contaminant mixture composition on integrated organismal responses." The Week 5b lecture
+    is direct: the Results should report patterns; "very little interpretation!" Move interpretation to
+    the Discussion.  [ref: lectures/290 Week 5b 2025.pdf; readings/The Results Section.pdf]
+  - The LISA paragraph repeats "Superoxide dismutase activity was significant at Tulalip Bay only" and
+    later "A single site, Tulalip Bay, showed significant local spatial autocorrelation for sod." The
+    Week 5b lecture advises: "If everything is important then nothing is" -- consolidate to one statement
+    and capitalize SOD consistently.  [ref: lectures/290 Week 5b 2025.pdf; readings/Brevity.pdf]
+  - The Kruskal-Wallis statistic is reported as H = 13.72 but degrees of freedom are omitted. The Week 5b
+    lecture shows the preferred format: "t = 5.57, df = 118, P < 0.001". Report H(df, N) for each test.
+    [ref: lectures/290 Week 5b 2025.pdf; readings/The Results Section.pdf]
+
+Discussion
+  - The Discussion opens by restating Introduction goals rather than interpreting the strongest result.
+    The Week 2b lecture describes the Discussion's mirror structure: "Begin by interpreting the data with
+    respect to the specific objectives of the study. Then get progressively broader...ending with the
+    concepts used to start the Introduction." Lead with your most surprising finding (the spatial
+    decoupling) and interpret it before doing anything else.
+    [ref: lectures/290 Week 2b.pdf; readings/The Discussion Section.pdf]
+  - Limitations are scattered across the Discussion but never named explicitly as limitations. Include a
+    dedicated paragraph covering: short deployment window (~85 d), single time-point sampling, potential
+    temperature/food confounders on SOD at the reference site, and the IBR reference-site scaling
+    assumption.  [ref: readings/Dealing with Limitations.pdf; readings/The Discussion Section.pdf]
+  - Future directions are vague ("finer temporal resolution...molecular-level indicators"). Name specific
+    next experiments, e.g., replicate seasonal deployments at the nine LISA-significant P450 sites, or
+    transcriptomic profiling at high-IBR outlier sites. The Discussion lecture notes: the more specific,
+    the more useful to the reader and the reviewer.
+    [ref: lectures/290 Week 2b.pdf; readings/The Discussion Section.pdf]
+  - There is no terminal conclusion sentence. End the Discussion (not Future Directions) with a single
+    sentence that a reader would quote: what is the bottom line about whether traditional biomarkers
+    belong in nearshore monitoring programs?  [ref: readings/The Discussion Section.pdf; readings/Scientific Writing as Storytelling.pdf]
+
+Writing & Brevity
+  - Compound modifiers are broken by a space after the hyphen throughout: "long- term", "short- term",
+    "long- standing", "pre- productive", "site- specific", "organism- level", "life- history",
+    "basin- scale", "class- specific". This looks like a word-processor artifact. Do a global find-and-
+    replace of "- " with "-" for these compounds.  [ref: readings/Brevity.pdf]
+  - Several sentences exceed 60 words. The Week 5b lecture notes that the best results sentence is one
+    that "gives both the interpretation and the detail needed" -- concisely. Apply the same discipline to
+    all sections: one idea per sentence, one claim per paragraph.  [ref: readings/Brevity.pdf]
+  - Abbreviations are inconsistently introduced. "SOD" is first used without definition at line 14
+    (abstract body), then defined at line 92 implicitly. Define on first use in the abstract, then again
+    on first use in the body. Same issue with "IBR", "LISA", "WDFW", "POPs".
+    [ref: lectures/290 Week 4a.pdf; readings/Brevity.pdf]
+
+References
+  - The Week 4b lecture specifies that every in-text citation must appear in the reference list and nothing
+    else. Check: "Beliaeff and Burgeot, 2002" (cited line 24 / introduction) and "Langness et al., 2018"
+    (cited line 22) do not appear in the reference list as shown. Also check "Altenburger et al., 2003"
+    cited twice. Cross-reference the full list before submission.
+    [ref: lectures/290 Week 4b.pdf; readings/Reading Scientific Papers.pdf]
+  - One reference is all-caps in an unusual way: "Johnson, L., et al. (2022). A TOXICS-FOCUSED BIOLOGICAL
+    OBSERVING SYSTEM." -- confirm the actual journal article title; this looks like a draft placeholder.
+    [ref: lectures/290 Week 4b.pdf]
+
+Front and back matter
+  - Acknowledgements still reads "No conflicts and all that jazz." The Week 2b lecture notes that
+    Acknowledgements cover professional (not emotional) help, field/lab contributions, and grant sources.
+    Write the full professional version.  [ref: lectures/290 Week 2b.pdf; readings/Ten Simple Rules Structuring Papers.pdf]
+  - Funding is still a placeholder. Insert NSF grant number(s) and co-author funding sources.
+    [ref: readings/Ten Simple Rules Structuring Papers.pdf]
+  - Data Availability still reads "Zenodo link to the manuscript's clean repo & links to the supplements."
+    Insert the actual DOI.  [ref: readings/Ten Simple Rules Structuring Papers.pdf]
+
+SPECIFIC LINE-LEVEL SUGGESTIONS
+- Title: "Assessing Mytilus trossulus response to contaminants..." -> consider a result-forward title
+  that states the main finding (decoupling of chemical and biological spatial structure).
+- Abstract, line 14: "...exhibited strong and significant spatial clustering Contaminant indices showed
+  strong spatial clustering, whereas..." -> delete the duplicated clause; keep one version.
+- Intro, line 20: "Cajaraville et al. - 2000" -> "Cajaraville et al., 2000" (comma, not dash).
+- Methods, line 52: "Condition index was calculated following Higgins (1938) formula (below)..." ->
+  insert the equation, e.g., CI = (tissue dry mass / shell volume) x 1000, or remove "(below)".
+- Methods, line 74: "Correlation analyses use Spearman's..." -> "...used Spearman's..." (past tense).
+- Results, lines 137-178: Convert stacked Moran's I text block to a proper 4-column table.
+- Results, line 78: "Figure 2. IBR." -> write a complete stand-alone caption.
+- Results, line 119: "...underscoring the influence of contaminant mixture composition..." -> move to
+  Discussion; Results should not interpret.
+- Results, line 183: "significant local spatial autocorrelation for sod" -> "...for SOD" (capitalize).
+- Throughout: replace "long- term", "short- term" etc. (hyphen+space) with unbroken hyphenated forms.
+
+RECOMMENDED NEXT STEPS
+1. Upload the correct revised file -- if revisions were made, ensure you are saving and uploading the
+   updated version, not the original.
+2. Once the correct draft is uploaded, prioritize these five changes in order:
+   a. Add an explicit directional hypothesis to the Introduction final paragraph (one sentence).
+   b. Fix the duplicated abstract clause and the condition-index formula placeholder.
+   c. Convert the Moran's I inline block to a table; write complete figure captions.
+   d. Review the reference list against the in-text citations for completeness and dash-vs-comma errors.
+   e. Complete Acknowledgements, Funding, and Data Availability sections.
+3. For writing style, read the "5 pivotal paragraphs" blog post referenced in the Week 2b lecture and
+   verify that each of those five paragraphs is doing the work it should in this manuscript.
+
+SOURCES CONSULTED
+- lectures/290 Week 2a.pdf (title craft)
+- lectures/290 Week 2b.pdf (paper structure, Introduction 3-component framework)
+- lectures/290 Week 3.pdf (Introduction role, how to occupy a niche)
+- lectures/290 Week 4a.pdf (Methods formatting rules, past tense, subheadings, active/passive voice)
+- lectures/290 Week 4b.pdf (References and APA citation format)
+- lectures/290 Week 5a student 2025.pdf (figures vs. tables, effective figure design)
+- lectures/290 Week 5b 2025.pdf (results reporting format, tables, statistics basics)
+- readings/The Introduction Section.pdf
+- readings/The Methods Section.pdf
+- readings/Methods to edit 2023.docx
+- readings/The Results Section.pdf
+- readings/The Discussion Section.pdf
+- readings/Dealing with Limitations.pdf
+- readings/Brevity.pdf
+- readings/Scientific Writing as Storytelling.pdf
+- readings/Ten Simple Rules Structuring Papers.pdf
+- readings/Reading Scientific Papers.pdf

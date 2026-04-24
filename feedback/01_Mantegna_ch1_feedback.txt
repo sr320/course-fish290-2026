@@ -1,0 +1,107 @@
+FEEDBACK: Mantegna_ch1.docx
+Assignment #: 01
+Date: 2026-04-24
+
+SUMMARY
+This is a complete first-draft manuscript on Mytilus trossulus biomarker responses to contaminants in Puget Sound. The science is ambitious, the dataset is impressive (74 sites), and the overall story -- that contaminant distributions and biomarker responses decouple at a regional scale -- comes through. The main opportunities for revision are: (1) sharpening the framing so an explicit question/hypothesis appears early, (2) tightening the prose (redundant sentences, long sentences, inconsistent hyphenation), and (3) finishing placeholder sections (Figure 1 caption, condition index formula, Acknowledgements, Funding, Data Availability).
+
+STRENGTHS
+- The introduction funnels logically from broad (nearshore contamination) to specific (P450 + SOD in M. trossulus), and cites foundational biomarker literature.
+- Methods are detailed enough for replication: site selection rationale, deployment protocol, sample sizes, assay protocols, and software/package disclosure are all present.
+- Results are organized by analysis type (regional comparisons, correlations, global vs. local spatial autocorrelation) and consistently report test statistic, effect size, and p-value.
+- The discussion does not overclaim; it explicitly treats mixed and moderate correlations as biologically informative rather than as "null" findings.
+- Reference list is substantial and topic-appropriate.
+
+AREAS FOR IMPROVEMENT
+
+Abstract
+  - There is a duplicated clause in the middle of the abstract ("...exhibited strong and significant spatial clustering Contaminant indices showed strong spatial clustering, whereas..."). Delete one. A Nature-style summary paragraph should be one clean arc: context, gap, what was done, what was found, what it means.  [ref: readings/Nature summary paragraph.pdf; readings/Brevity.pdf]
+  - Consider adding a single concluding "so-what" sentence that states the management or monitoring implication, not only the interpretive caveat.  [ref: readings/Nature summary paragraph.pdf; readings/shrimp goby abstract.docx]
+  - The abstract is ~250 words and dense; aim for a tighter arc with each sentence doing distinct work (background -> gap -> approach -> key result -> implication).  [ref: readings/Brevity.pdf; readings/Scientific Writing as Storytelling.pdf]
+
+Introduction
+  - The research question and hypothesis are only implicit; the final paragraph says "we evaluated whether these relationships persist" but never states a directional prediction. Add one or two sentences that make the hypothesis explicit (e.g., "We hypothesized that P450 activity would co-vary with PAH indices, while SOD would show weaker class-specific signal").  [ref: readings/The Introduction Section.pdf; readings/Scientific Writing as Storytelling.pdf]
+  - The gap is diffuse ("remains a critical gap"). Name the gap more concretely: is it spatial scale, mixture complexity, or translating lab-derived biomarker responses to field mixtures? Each reframing changes the study's contribution.  [ref: readings/The Introduction Section.pdf; readings/Ten Simple Rules Structuring Papers.pdf]
+  - Paragraph 3 (WDFW / Mussel Watch) reads as background that could be trimmed or merged with paragraph 2; right now the intro spends four paragraphs before introducing biomarkers.  [ref: readings/Ten Simple Rules Structuring Papers.pdf; readings/Brevity.pdf]
+  - Citation formatting is inconsistent -- e.g., "Cajaraville et al. - 2000" (dash) vs. "Cajaraville et al., 2000" (comma). Standardize throughout.  [ref: readings/Reading Scientific Papers.pdf]
+
+Methods
+  - Figure 1 is referenced in the text and has a caption, but the figure itself is missing from the draft (there are only blank lines). Either embed the figure or include a placeholder with dimensions and a "[Figure 1 to be inserted here]" note so reviewers know it is intentional.  [ref: readings/The Methods Section.pdf; readings/Methods to edit 2023.docx]
+  - The condition index definition cites "Higgins (1938) formula (below)" but no formula is shown. Insert the equation or remove the "(below)".  [ref: readings/The Methods Section.pdf; readings/Methods to edit 2023.docx]
+  - The Methods mix past and present tense ("Biomarker and morphometric data were evaluated..." vs. "Correlation analyses use Spearman's..."). Use past tense consistently for work already done.  [ref: readings/The Methods Section.pdf; readings/Brevity.pdf]
+  - Subheadings are inconsistent in capitalization ("Mussel deployment and collection", "Whole mussel morphometrics", "Assays", "Analysis"). Choose one convention (title case or sentence case) and apply throughout.  [ref: readings/The Methods Section.pdf]
+  - The "Analysis" subsection is long and mixes four distinct topics (transformations and standardization, IBR, contaminant indices, spatial analyses, pairwise testing). Split into clearly labeled sub-subsections so a reader can find any one method quickly.  [ref: readings/The Methods Section.pdf; readings/Methods to edit 2023.docx]
+  - State assay replication and QA explicitly: number of technical replicates kept after outlier removal, blank correction approach, intra-/inter-plate CVs. This is what reviewers ask for.  [ref: readings/The Methods Section.pdf]
+
+Results
+  - The Moran's I "table" is embedded as inline text with inconsistent punctuation and stray parentheses (e.g., "I = 0.165, z = 3.52, p < 0.001),"). Convert to a real table with columns Variable | Moran's I | z | p. A table is easier to scan and avoids the punctuation errors.  [ref: readings/The Results Section.pdf; readings/Mock Results to examine in class.docx; lectures/Graphing examples_2024.xlsx]
+  - Figure 2 ("IBR.") is referenced but, like Figure 1, the figure is missing from the draft and the caption is a single word. Write full captions that stand alone (what was plotted, n, error bars, statistical annotations).  [ref: readings/The Results Section.pdf; lectures/Graphing examples_2024.xlsx]
+  - The Results reference Figure 3B ("...did not differ significantly among reporting areas... Fig. 3B") but no Figure 3 is defined. Renumber or add it.  [ref: readings/The Results Section.pdf]
+  - There is redundancy: the LISA paragraph states "Superoxide dismutase activity was significant at Tulalip Bay only" and then later "A single site, Tulalip Bay, showed significant local spatial autocorrelation for sod." Keep one; also capitalize "SOD" consistently.  [ref: readings/Brevity.pdf; readings/The Results Section.pdf]
+  - Results should state findings without interpretation. Phrases like "underscoring the influence of contaminant mixture composition..." belong in the Discussion.  [ref: readings/The Results Section.pdf; readings/Mock Results to examine in class.docx]
+  - Report exact test statistics in a consistent format (e.g., always italicized symbols, always report df for Kruskal-Wallis as H(df,N)).  [ref: readings/The Results Section.pdf; lectures/Statistics_Examples_2023.xlsx]
+
+Discussion
+  - The heading is "Discussion and future directions" but the section mixes discussion, conclusion, and future work without clear signposting. Consider distinct paragraph-level topic sentences, or split into subsections ("Spatial decoupling", "Biomarker interpretation", "Limitations", "Future directions").  [ref: readings/The Discussion Section.pdf]
+  - Limitations are implied ("moderate correlations", "capacity of organisms to buffer") but are not named as limitations. Include an explicit limitations paragraph covering: short deployment window (~85 d), lack of temporal replication, confounding by temperature/food availability, and reference-site scaling assumptions.  [ref: readings/Dealing with Limitations.pdf; readings/The Discussion Section.pdf]
+  - The first Discussion paragraph restates the Introduction goals. Lead instead with your strongest, most surprising finding (the decoupling of chemical and biological spatial structure) and then explain it.  [ref: readings/The Discussion Section.pdf; readings/Scientific Writing as Storytelling.pdf]
+  - "Future work that incorporates finer temporal resolution..." is the right instinct but generic. Name one or two concrete next experiments (e.g., repeated seasonal deployments at the nine LISA-significant P450 sites paired with transcriptomics).  [ref: readings/The Discussion Section.pdf]
+  - There is no explicit conclusion/take-home sentence. End with one sentence that a reader would quote.  [ref: readings/The Discussion Section.pdf; readings/Scientific Writing as Storytelling.pdf]
+
+Writing & Brevity
+  - Multiple compound modifiers are broken by a stray space after the hyphen: "long- term", "long- standing", "short- term", "pre- productive", "site- specific", "organism- level", "class- specific". Global find-and-replace "- " with "-" in these cases.  [ref: readings/Brevity.pdf]
+  - Sentences frequently exceed 40 words (e.g., the P450/PCB sentence in paragraph 2 of the Discussion runs ~70 words). Break each into two or three sentences with one idea per sentence.  [ref: readings/Brevity.pdf; readings/Scientific Writing as Storytelling.pdf]
+  - Hedging phrases stack ("may not indicate...but rather the influence...that alter or confound expected..."). Choose one hedge per claim.  [ref: readings/Brevity.pdf]
+  - Inconsistent abbreviation handling: "Cytochrome P450" is defined implicitly but "SOD" is sometimes written out and sometimes abbreviated (and once lower-cased as "sod"). Define each acronym on first use, then use consistently.  [ref: readings/Brevity.pdf]
+
+Overall structure
+  - The manuscript follows IMRaD, but sections are unevenly weighted (long Introduction, compact Results, long Discussion). Rebalance so that Results carries more of the narrative with clearer signposted paragraphs mapping to each sub-question.  [ref: readings/Ten Simple Rules Structuring Papers.pdf; readings/Scientific Writing as Storytelling.pdf]
+  - For models of how a mussel/pollution paper structures each section, skim the example papers we have read in class.  [ref: readings/Wu et al. 2014_Article_ToxicityOfUrbanHighwayRunoffIn.pdf; readings/Orejas et al 2016.pdf]
+
+Front and back matter
+  - Keywords include "heavy metals" but the study frames the analysis around contaminant mixtures and specifically reports PAHs, PCBs, DDTs, PBDEs, pesticides, and metals; consider "contaminant mixtures" and "spatial autocorrelation" as keywords, which better reflect the contribution.  [ref: readings/The Introduction Section.pdf]
+  - Acknowledgements ("...No conflicts and all that jazz.") and Funding ("I have to add my NSF verbage") are placeholders -- replace before circulating.  [ref: readings/Ten Simple Rules Structuring Papers.pdf]
+  - Data Availability currently reads "Zenodo link to the manuscript's clean repo & links to the supplements" -- insert the actual DOI/URL.  [ref: readings/Ten Simple Rules Structuring Papers.pdf]
+
+SPECIFIC LINE-LEVEL SUGGESTIONS
+- Abstract: "...exhibited strong and significant spatial clustering Contaminant indices showed strong spatial clustering..." -> Delete the duplicated clause; keep one version.
+- Introduction, para 3: "Cajaraville et al. - 2000" -> "Cajaraville et al., 2000" (comma, not dash).
+- Methods, Assays: "Condition index was calculated following Higgins (1938) formula (below) where shell volume was estimated as length x width x height." -> Insert the equation (e.g., CI = (tissue wet mass / shell volume) x 100) or drop "(below)".
+- Methods, Analysis: "Correlation analyses use Spearman's..." -> "Correlation analyses used Spearman's..." (past tense).
+- Results, Moran's I block: Convert the stacked prose into a properly formatted table; remove trailing commas like "(I = 0.165, z = 3.52, p < 0.001),".
+- Results, LISA: "...significant local spatial autocorrelation for sod." -> "...for SOD."
+- Discussion, final paragraph: Add a terminal period after "nearshore ecosystem condition" (currently missing).
+- Throughout: replace "long- term", "short- term", "long- standing", "site- specific" (hyphen + space) with unbroken hyphenated compounds.
+
+RECOMMENDED NEXT STEPS
+1. Do a "brevity pass" on the abstract and Discussion: read each sentence aloud and cut filler (this also catches the duplicated abstract clause and the long stacked-hedge sentences).
+2. Fix the placeholders: embed Figure 1 and Figure 2, insert the condition-index equation, complete Acknowledgements/Funding/Data Availability, and standardize citation punctuation.
+3. Reformat the Moran's I results as a real table and write complete, stand-alone captions for every figure and table.
+4. Add an explicit hypothesis to the Introduction (one to two sentences) and an explicit limitations paragraph to the Discussion.
+5. Read the Results sections of one in-class example paper (e.g., Wu et al. 2014 or Orejas et al. 2016) to model tighter, interpretation-free results prose.
+
+SOURCES CONSULTED
+- readings/The Introduction Section.pdf
+- readings/The Methods Section.pdf
+- readings/Methods to edit 2023.docx
+- readings/The Results Section.pdf
+- readings/Mock Results to examine in class.docx
+- readings/The Discussion Section.pdf
+- readings/Dealing with Limitations.pdf
+- readings/Brevity.pdf
+- readings/Scientific Writing as Storytelling.pdf
+- readings/Ten Simple Rules Structuring Papers.pdf
+- readings/Nature summary paragraph.pdf
+- readings/shrimp goby abstract.docx
+- readings/Reading Scientific Papers.pdf
+- readings/Wu et al. 2014_Article_ToxicityOfUrbanHighwayRunoffIn.pdf
+- readings/Orejas et al 2016.pdf
+- lectures/290 Week 2a 2024.pptx
+- lectures/290 Week 2b 2025.pptx
+- lectures/290 Week 3.pptx
+- lectures/290 Week 4a 2025.pptx
+- lectures/290 Week 4b 2025.pptx
+- lectures/290 Week 5a student 2025.pptx
+- lectures/290 Week 5b 2025.pptx
+- lectures/Graphing examples_2024.xlsx
+- lectures/Statistics_Examples_2023.xlsx
