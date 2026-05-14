@@ -1,11 +1,11 @@
 ---
 name: assignment-feedback
-description: Generates instructor feedback reports for student draft manuscripts in the assignments/ folder, grounded in FISH 290 course material from lectures/ and readings/. Assigns a sequential two-digit prefix to the draft and writes a matching plain-text feedback file into feedback/. Use when the instructor asks to assess, review, evaluate, give feedback on, or critique a draft or partial draft manuscript located in assignments/.
+description: Generates instructor feedback reports for student draft manuscripts in the assignments/ folder, grounded solely in comprehensive_guide_to_writing_a_scientific_paper.md. Assigns a sequential two-digit prefix to the draft and writes a matching plain-text feedback file into feedback/. Use when the instructor asks to assess, review, evaluate, give feedback on, or critique a draft or partial draft manuscript located in assignments/.
 ---
 
 # Assignment Feedback
 
-This skill produces a plain-text feedback report for a student draft (full or partial manuscript) in `assignments/`. It enforces a global two-digit numbering scheme that keeps the draft filename and the feedback filename in lockstep, and grounds every suggestion in specific files from `lectures/` and `readings/`.
+This skill produces a plain-text feedback report for a student draft (full or partial manuscript) in `assignments/`. It enforces a global two-digit numbering scheme that keeps the draft filename and the feedback filename in lockstep, and grounds every suggestion in `comprehensive_guide_to_writing_a_scientific_paper.md` (the "guide"). The guide is the *only* source cited in feedback bullets; individual `lectures/` and `readings/` files are not cited.
 
 ## When to use
 
@@ -27,10 +27,9 @@ Track progress with this checklist:
 - [ ] 2.  Compute the next two-digit prefix NN
 - [ ] 3.  Rename the draft to NN_<original name>
 - [ ] 4.  Read the draft content
-- [ ] 5a. List every rubric.md file mapped to every section present in the draft
-- [ ] 5b. Read each listed .pdf / .docx in full (Read tool); do not skim
-- [ ] 5c. Write a 1-2 sentence internal note on each file's key emphasis
-- [ ] 5d. Verify every planned feedback bullet ties to a specific point from a note
+- [ ] 5a. Read comprehensive_guide_to_writing_a_scientific_paper.md in full
+- [ ] 5b. Read rubric.md (alongside this SKILL.md) for criteria and section-to-guide mapping
+- [ ] 5c. Verify every planned feedback bullet ties to a specific point in a specific guide section
 - [ ] 6.  Write feedback to feedback/NN_<stem>_feedback.txt
 - [ ] 6.5 Verify citation grounding (see "Verify citation grounding" below)
 - [ ] 7.  Report the two resulting paths to the instructor
@@ -71,18 +70,14 @@ Do not rename a file that already starts with `NN_`; reuse its existing prefix.
 
 Use the Read tool on the renamed file. Supported: `.md`, `.txt`, `.pdf`, `.docx`. If the draft is a format that cannot be read, inform the instructor and stop.
 
-### 5. Read the mapped sources
+### 5. Read the guide and rubric
 
-Read `rubric.md` (alongside this SKILL.md) for the section-to-source mapping. Then, for every section present in the draft (Introduction, Methods, Results, Discussion, Abstract, etc.):
+1. Read `comprehensive_guide_to_writing_a_scientific_paper.md` in full with the Read tool. Do not rely on prior session memory; open the file every time. This is the only source you will cite in feedback bullets.
+2. Read `rubric.md` (alongside this SKILL.md) for the "what to look for" criteria and the section-to-guide mapping.
+3. Internally identify which sections of the draft are present (Title, Abstract, Introduction, Methods, Results, Discussion, References, etc.). For each, note which guide sections the rubric maps to.
+4. Every bullet you eventually write under "AREAS FOR IMPROVEMENT" must reflect a specific point from a specific section of the guide — not a generic writing tip and not a name-drop of the guide as a whole.
 
-1. List every file listed for that section in `rubric.md`.
-2. Read each `.pdf` and `.docx` in that list with the Read tool. Do not rely on filenames, prior knowledge, or memory from earlier sessions. "Consult" means "open and read."
-3. After reading each file, write a brief internal note (1-2 sentences) capturing its key emphasis (e.g., "Week 7a: Discussion follows a 5-paragraph template; limitations should not be the last paragraph; 'But, yes' framing is preferred over 'Yes, but'.").
-4. Every bullet you eventually write under "AREAS FOR IMPROVEMENT" must reflect a specific point from one of those notes, not just name-drop a filename.
-
-Re-read on rubric change. If `rubric.md` has been edited since a previous feedback file was written, treat the source list as untrusted: read every rubric-mapped file for sections in the draft from scratch in this session, even if you read older versions previously. Do not assume prior knowledge transfers. Swapping `[ref: ...]` tags without re-grounding the substance is a defect (see "Anti-patterns" below).
-
-Lecture file formats. PDF versions of lectures are readable; `.pptx` and `.key` are not. Always read and cite the `.pdf` version. If only the `.pptx`/`.key` exists for a lecture the rubric maps to, do not cite that lecture; pick another rubric-mapped source instead.
+Re-read on guide change. If `comprehensive_guide_to_writing_a_scientific_paper.md` or `rubric.md` has been edited since a previous feedback file was written, do not rely on prior phrasing or notes. Read both from scratch in this session.
 
 ### 6. Write the feedback file
 
@@ -104,20 +99,26 @@ STRENGTHS
 
 AREAS FOR IMPROVEMENT
 
+Title
+  - <comment>  [ref: guide §4 (Title)]
+
+Abstract
+  - <comment>  [ref: guide §5 (Abstract)]
+
 Introduction
-  - <comment>  [ref: readings/The Introduction Section.pdf; lectures/290 Week 2a.pdf]
+  - <comment>  [ref: guide §6 (Introduction)]
 
 Methods
-  - <comment>  [ref: readings/The Methods Section.pdf; lectures/290 Week 4a.pdf]
+  - <comment>  [ref: guide §7 (Methods)]
 
 Results
-  - <comment>  [ref: readings/The Results Section.pdf; lectures/290 Week 5b 2025.pdf]
+  - <comment>  [ref: guide §8 (Results)]
 
 Discussion
-  - <comment>  [ref: readings/The Discussion Section.pdf; readings/Dealing with Limitations.pdf; lectures/290 Week 7a 2025.pdf]
+  - <comment>  [ref: guide §9 (Discussion)]
 
 Writing & Brevity
-  - <comment>  [ref: readings/Brevity.pdf; readings/Scientific Writing as Storytelling.pdf]
+  - <comment>  [ref: guide §12 (Editing)]
 
 SPECIFIC LINE-LEVEL SUGGESTIONS
 - p.X / section Y: "<short quote or paraphrase>" -> <concrete suggestion>
@@ -128,17 +129,15 @@ RECOMMENDED NEXT STEPS
 3. <actionable step>
 
 SOURCES CONSULTED
-- readings/<file>
-- readings/<file>
-- lectures/<file>
+- comprehensive_guide_to_writing_a_scientific_paper.md
 ```
 
 Rules for the template:
 
-- Omit any section of "AREAS FOR IMPROVEMENT" that does not apply to the draft (e.g., a partial manuscript missing a Discussion).
-- Every bullet under "AREAS FOR IMPROVEMENT" must end with a `[ref: ...]` tag pointing to one or more real files in `readings/` or `lectures/`. Every file named in a `[ref: ...]` tag must have been read with the Read tool in the current session (see step 5).
-- Each section of "AREAS FOR IMPROVEMENT" should cite at least one reading and at least one lecture PDF from the rubric for that section, when both are available.
-- The `SOURCES CONSULTED` list must be a strict superset of all files appearing in `[ref: ...]` tags, and must include every file `rubric.md` maps to for sections present in the draft.
+- Omit any subsection of "AREAS FOR IMPROVEMENT" that does not apply to the draft (e.g., a partial manuscript missing a Discussion, or a draft with no Title yet).
+- Every bullet under "AREAS FOR IMPROVEMENT" must end with a `[ref: ...]` tag that points to one or more specific sections of `comprehensive_guide_to_writing_a_scientific_paper.md`, using the format `guide §<number> (<short name>)`. Use semicolons to separate multiple guide sections in one tag.
+- Do not cite any file other than `comprehensive_guide_to_writing_a_scientific_paper.md` inside `[ref: ...]` tags. No `lectures/` or `readings/` paths.
+- `SOURCES CONSULTED` should list `comprehensive_guide_to_writing_a_scientific_paper.md`. It may also list `rubric.md` if the rubric was consulted. It should not list `lectures/` or `readings/` files.
 - Keep feedback concrete, kind, and actionable. Avoid generic praise.
 - Use plain ASCII hyphens for bullets; do not use Markdown syntax.
 
@@ -146,10 +145,10 @@ Rules for the template:
 
 Before reporting to the instructor, confirm all of the following. If any check fails, fix the feedback file and re-check.
 
-- Every file in `rubric.md` for the sections present in the draft appears in `SOURCES CONSULTED`.
-- Every inline `[ref: ...]` tag names a file that was actually opened with the Read tool in this session.
-- No bullet exists that names a rubric file but draws no substantive point from it (no name-drops).
-- For every section in "AREAS FOR IMPROVEMENT," at least one bullet reflects a specific point from a lecture PDF mapped to that section in `rubric.md` (not just a reading).
+- The guide was opened with the Read tool in this session.
+- Every `[ref: ...]` tag cites `comprehensive_guide_to_writing_a_scientific_paper.md` by section number (e.g., `guide §6 (Introduction)`); no other files appear in `[ref: ...]` tags.
+- Every bullet reflects a specific point from the cited guide section — not a name-drop, not a generic writing tip.
+- For each major manuscript section present in the draft (Introduction, Methods, Results, Discussion, etc.), at least one bullet draws on the guide section the rubric maps to.
 
 ### 7. Report to the instructor
 
@@ -163,10 +162,10 @@ Reply with a short confirmation that lists:
 
 These are defects, not stylistic preferences. Avoid all of them.
 
-- Citation-only updates. Swapping `[ref: ...]` filenames to match a new `rubric.md` without re-reading the new files and revising the bullet content to reflect their specific emphases. If the rubric changes the lecture mapped to a section, the substance of that section's feedback must change to reflect what the new lecture actually emphasizes.
-- Name-dropping. Adding a `[ref: <file>]` tag to a bullet whose content does not draw on a specific point from that file. Citations are evidence the file informed the bullet, not decoration.
-- Skipping lectures. Reading only the `readings/` PDFs and citing lectures by filename without opening them. Lecture PDFs are readable and must be read whenever the rubric maps them to a section in the draft.
-- Memory reuse across rubric edits. Reusing notes or phrasing from a previous feedback file because "the same lecture was cited last time" -- the rubric may have changed, lectures may have been re-titled, and prior session memory cannot be relied upon. Re-read from scratch.
+- Citing lectures or readings. The only citable source in feedback bullets is `comprehensive_guide_to_writing_a_scientific_paper.md`. Do not include `lectures/...` or `readings/...` paths inside `[ref: ...]` tags, and do not list them in `SOURCES CONSULTED`.
+- Name-dropping a guide section. Adding `[ref: guide §X]` to a bullet whose content does not draw on a specific point from that section. Citations are evidence the section informed the bullet, not decoration.
+- Skipping the guide. Writing feedback from memory or generic writing advice without opening `comprehensive_guide_to_writing_a_scientific_paper.md` in this session. Always read the guide before drafting feedback, even if you have written feedback from it before.
+- Reusing prior phrasing across guide edits. Reusing notes or bullets from a previous feedback file because "the same section was cited last time" — the guide may have changed. Re-read from scratch.
 
 ## Examples
 
@@ -177,11 +176,12 @@ Agent actions (no prefixes yet in repo):
 1. Scan -> no existing prefix, so `NN = 01`.
 2. `git mv assignments/Mantegna_ch1.docx assignments/01_Mantegna_ch1.docx`.
 3. Read `assignments/01_Mantegna_ch1.docx`.
-4. Open `rubric.md`. For each section present in the draft, list every rubric-mapped file, then read each `.pdf` / `.docx` with the Read tool. Take a 1-2 sentence note on each.
-5. Draft `feedback/01_Mantegna_ch1_feedback.txt` using the template; ensure every bullet draws on a specific point from a note.
+4. Read `comprehensive_guide_to_writing_a_scientific_paper.md` in full with the Read tool. Read `rubric.md` for criteria and section-to-guide mapping.
+5. Draft `feedback/01_Mantegna_ch1_feedback.txt` using the template; ensure every bullet draws on a specific point from a specific guide section.
 6. Run the citation-grounding verification (step 6.5).
 7. Report both paths and a one-sentence summary.
 
 ## Additional resources
 
-- Section-to-source mapping: [rubric.md](rubric.md)
+- Section-to-guide mapping and criteria: [rubric.md](rubric.md)
+- The single source of substantive feedback: `comprehensive_guide_to_writing_a_scientific_paper.md`
