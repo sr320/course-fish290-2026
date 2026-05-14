@@ -1,0 +1,75 @@
+CORE CONSIDERATIONS FOR A SCIENTIFIC MANUSCRIPT
+Synthesized from FISH 290 readings (Heard chs. 10-13, 18, 20; Mensh & Kording 2017;
+Schimel "Writing Science") and lectures (Weeks 2-5).
+
+WHOLE-PAPER FRAME
+- One central contribution. A reader should be able to give a one-sentence summary
+  a year later. The title is the ultimate refinement of that contribution.
+- Context-Content-Conclusion (C-C-C). At every scale - paper, section, paragraph -
+  set context first, deliver content in the middle, end with the conclusion to be
+  remembered.
+- The Introduction and Discussion are mirrors: every question raised at the front
+  must be answered at the back; nothing major in the Discussion should be a
+  surprise.
+
+INTRODUCTION
+- Three Swalesian moves: (1) define the research territory (broad context),
+  (2) establish a niche (the gap, contradiction, or unanswered question),
+  (3) occupy the niche (your approach, and ideally a one-line preview of the result).
+- Hourglass shape: start broad enough for the target journal, narrow steadily to
+  one explicit question. Avoid a generic literature review.
+- The reader should leave the Introduction able to state the gap and the question
+  in their own words.
+
+METHODS
+- Organize logically, not chronologically. Subheads should mirror Results subheads
+  so a reader can navigate back and forth.
+- The function of Methods is credibility, not exact reproducibility. Include a
+  detail if it (a) shows you are qualified, (b) makes the approach plausible, or
+  (c) lets the reader follow the investigative logic into Results.
+- Address methodological limitations where the method is described - not at the
+  end. Use "but, yes": acknowledge briefly, explain why the method still answers
+  the question.
+
+RESULTS
+- Treat Methods/Results/Discussion as a firewall. Results report what was observed:
+  what was measured, in which comparison, with what magnitude, and with what
+  statistical support. Interpretation belongs in the Discussion.
+- Open the Results with the main finding (or, for complex arguments, with a brief
+  preview followed by build-up). A "main-result-first" power position is read by
+  more people than any other sentence.
+- Each results paragraph should answer one question - set up by its first sentence,
+  resolved by its last.
+- Numbers: winnow to those that carry the story. Report only meaningful precision
+  (two sig figs for P-values; magnitudes rounded to what the measurement supports).
+  Do not duplicate the same number across text, table, and figure.
+
+DISCUSSION
+- Four components: (1) interpret the results to answer the research question,
+  (2) consider weaknesses honestly, (3) relate findings to prior literature and
+  draw broader implications, (4) propose specific (not generic) future directions.
+- Open with the answer, not a recap of the results. The first paragraph is a
+  power position.
+- Hedge where uncertainty is real ("our results suggest", "if correct") but do not
+  hedge into vagueness. Limitations belong early in the Discussion, not at the end.
+- A separate Conclusion section is rarely needed; if used, keep it 4-6 sentences
+  and avoid restating the abstract.
+
+FIGURES AND TABLES
+- Choose the format that matches the data: text for 2-3 numbers, tables for exact
+  values across many entries, figures for trends, comparisons, and relationships.
+- Each figure/table must stand alone (self-contained legend) AND be integrated
+  with the text (the text tells the reader what pattern to look for).
+- Keep figures simple: <= 4 panels, <= 4 traces per panel, axes starting at zero
+  where possible, identical scales when comparing panels, color used only when
+  necessary. Use thick lines and large fonts so figures survive reduction.
+- A figure title/caption should name the comparison being made, not just label the
+  axes. Cite each figure in the order it appears.
+
+PROCESS REMINDERS
+- Allocate effort by readership: title > abstract > figures > intro/discussion >
+  results > methods.
+- Outline before drafting. Write one sentence per planned paragraph and check that
+  every paragraph advances the central contribution.
+- Brevity is a revision task: cut hedges, nominalizations, metadiscourse, padding,
+  and redundancy on a dedicated pass after the draft is complete.
